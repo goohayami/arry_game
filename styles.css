@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+.super-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.num-container {
+  display: flex;
+}
+
+.num {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 4rem;
+  border-color: firebrick;
+  border: solid;
+}
+
+.anser-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.ans {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(150, 255, 30);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 4rem;
+  border-color: firebrick;
+  border: solid;
+}
+
+button {
+  font-size: 2rem;
+  margin: 2rem;
+}
